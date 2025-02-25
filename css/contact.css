@@ -1,0 +1,98 @@
+.contact {
+  background-color: #fff;
+  padding: 80px 0 45px;
+}
+.contact-heading {
+  margin: 0 auto 90px;
+}
+.contact-title {
+  color: #212121;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 280px;
+  text-align: center;
+  margin: 0 auto 34px;
+}
+.contact-title::after {
+  content: "";
+  display: inline-block;
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+}
+.contact-description {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  width: 365px;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.form-contact-content-left {
+  width: 40%;
+}
+.form-contact-content-right {
+  width: 40%;
+}
+label {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdbdbd;
+  display: block;
+}
+
+input {
+  border: none;
+  padding: 3px 0;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  outline: none;
+  display: block;
+}
+textarea {
+  font-family: "Open Sans";
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  padding: 7px 0;
+}
+.form-contact-button {
+  width: 166px;
+  height: 42px;
+  border: none;
+  color: #fff;
+  background-color: #ec7979;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.form-contact-button:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  background-color: #b85858;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.form-item:last-child {
+  margin-bottom: 0px;
+}

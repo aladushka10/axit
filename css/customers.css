@@ -1,0 +1,102 @@
+.customers {
+  padding: 80px 0 120px;
+}
+.customers-heading {
+  margin: 0 auto 67px;
+}
+.customers-title {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  width: 688px;
+  margin: 0 auto 34px;
+}
+.customers-title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  display: inline-block;
+  background-color: #e72424;
+}
+.customers-heading-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  width: 363px;
+  margin: auto;
+}
+.client-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.client-card {
+  width: 289px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+.client-card-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  background-color: #e2e2e2;
+  flex-grow: 1;
+  padding: 9px 22px 6px;
+  border-radius: 7px;
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 2;
+}
+.client-card-text::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  border: 10px solid transparent;
+  border-top: 10px solid #e2e2e2;
+  z-index: 1;
+}
+.client-name-wrap {
+  display: flex;
+  width: 214px;
+  margin: 0 auto 0;
+  justify-content: space-between;
+}
+.client-picture {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.client-name-profession-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 97px;
+  margin: auto 0 auto;
+  align-items: flex-end;
+}
+.client-name {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 8px;
+}
+.client-profession {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}

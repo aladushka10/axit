@@ -1,0 +1,133 @@
+.social {
+  background-color: #f8efef;
+  padding: 14px 0;
+}
+.social-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+}
+.social-heading {
+  width: 365px;
+  margin: 0 15px;
+}
+.social-title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.social-description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+}
+.social-navigation {
+  width: 650px;
+  margin: 0 15px;
+}
+.social-navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-navigation-list__item {
+  font-size: 40px;
+}
+.social-navigation-link {
+}
+.fa-facebook-f {
+  color: #86878b;
+}
+.fa-facebook-f:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #86878b;
+}
+.fa-twitter:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #00acee;
+}
+.fa-google-plus-g {
+  color: #86878b;
+}
+.fa-google-plus-g:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #db4a39;
+}
+.fa-pinterest {
+  color: #86878b;
+}
+.fa-pinterest:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #c8232c;
+}
+.fa-instagram {
+  color: #86878b;
+}
+.fa-instagram:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(110deg, #5b51d8, #c13584, #f77737, #fcaf45);
+}
+.fa-stumbleupon {
+  color: #86878b;
+}
+.fa-stumbleupon:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #e64a19;
+}
+.fa-wifi {
+  color: #86878b;
+}
+.fa-wifi:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(360deg);
+  color: #2196f3;
+}
+
+@media (max-width: 1110px) {
+  .social-navigation {
+    width: 500px;
+  }
+  .social-navigation-list li {
+    font-size: 36px;
+  }
+}
+@media (max-width: 990px) {
+  .social-navigation {
+    width: 400px;
+  }
+}
+@media (max-width: 850px) {
+  .social-wrap {
+    flex-direction: column;
+  }
+
+  .social-heading {
+    margin: 0 auto 30px;
+  }
+  .social-title {
+    text-align: center;
+  }
+  .social-description p {
+    text-align: center;
+  }
+  .social-navigation {
+    width: 365px;
+  }
+  .social-navigation-list li {
+    font-size: 30px;
+  }
+}

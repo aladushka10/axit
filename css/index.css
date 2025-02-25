@@ -1,0 +1,32 @@
+@import url(./_font.css);
+@import url(./cdn.css);
+@import url(./header.css);
+@import url(./first_screen.css);
+@import url(./social.css);
+@import url(./tabs.css);
+@import url(./awesome.css);
+@import url(./pricing.css);
+@import url(./customers.css);
+@import url(./axure.css);
+@import url(./contact.css);
+@import url(./footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  z-index: 3;
+}
